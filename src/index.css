@@ -1,1 +1,18 @@
+.username{
+  background-color: white;
+  border-radius: 4px;
+}
 
+.password{
+  background-color: white;
+  border-radius: 4px;
+}
+
+h1{
+  background-image: url(https://previews.123rf.com/images/srckomkrit/srckomkrit1607/srckomkrit160702201/60232005-crumpled-sheet-of-lined-paper-or-notebook-paper.jpg);
+  padding: 20px;
+  font-size: 80px;
+  text-align: center;
+  color: rgb(45, 88, 226);
+  margin: 0px 0px 25px 0px;
+}

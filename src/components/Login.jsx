@@ -20,12 +20,15 @@ export default function Login() {
 
   return (
     <>
-    <h2>Login</h2>
     <form onSubmit={handleSubmit}>
-    <TextField id="username" label="Username" variant="outlined" value={username} onChange={(e) => {setUsername(e.target.value)}} required/>
-    <TextField id="password" label="Password" variant="outlined" value={password} onChange={(e) => {setPassword(e.target.value)}} type="password" required />
     <br/>
-    <Button type="submit" variant="outlined">Login</Button>
+    <TextField className="username" id="username" label="Username" variant="outlined" value={username} onChange={(e) => {setUsername(e.target.value)}} required/>
+    <br/>
+    <TextField className="password" id="password" label="Password" variant="outlined" value={password} onChange={(e) => {setPassword(e.target.value)}} type="password" required />
+    <br/>
+    <br/>
+    <Button type="submit" variant="contained">Login</Button>
+    <br/>
     </form>
     </>
 )}

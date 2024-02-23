@@ -14,7 +14,7 @@ export const mockTransactions = [
     journals: "12",
   },
   {
-    userId: "01e4dsa",
+    userId: "0a123sb",
     user: "Tina",
     img: "https://openpsychometrics.org/tests/characters/test-resources/pics/BOBB/3.jpg",
     lastEntry: "2021-09-01",
@@ -28,8 +28,8 @@ export const mockTransactions = [
     journals: "5",
   },
   {
-    userId: "0a123sb",
-    user: "Tina",
+    userId: "120s51a",
+    user: "Gene",
     img: "https://preview.redd.it/i-just-noticed-how-younger-me-looked-like-gene-belcher-i-v0-0lxn1dm8gpea1.jpg?width=490&format=pjpg&auto=webp&s=4b1b07b332024131f72255a9bb7dd12df312ce47",
     lastEntry: "2022-11-02",
     journals: "2",
