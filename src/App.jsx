@@ -1,6 +1,7 @@
 import './App.css'
 import WordCard from './components/WordCard'
 import Login from './components/Login'
+import TopContributors from './components/TopContributors'
 
 function App() {
 
@@ -9,7 +10,7 @@ function App() {
     <h1>Online Digital Journal</h1>
     <WordCard/>
     <Login/>
-    {/* <Contributors/> */}
+    <TopContributors/>
     </>
   );
 }
