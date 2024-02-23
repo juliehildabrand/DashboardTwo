@@ -38,7 +38,7 @@ export default function Customers() {
               <TableCell>Image</TableCell>
               <TableCell>Last Entry</TableCell>
               <TableCell>Journals</TableCell>
-              <TableCell>More Info</TableCell>
+              <TableCell>Learn More</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
@@ -57,12 +57,9 @@ export default function Customers() {
                 <TableCell>{transaction.journals}</TableCell>
                 <TableCell>
                   <Button
-                  // variant="contained"
-                  // size="small"
-                  // href={`https://dummyjson.com/products/${transaction.txId}`}
-                  // target="_blank"
+                  href={`https://en.wikipedia.org/wiki/Bob%27s_Burgers`}
                   >
-                    USER PROFILE
+                    FULL PROFILE
                   </Button>
                 </TableCell>
               </TableRow>
