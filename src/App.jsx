@@ -37,9 +37,6 @@ function App() {
             <Item>ODJ Members <TopContributors/>
             </Item>
           </Grid>
-          <Grid xs={8}>
-            <Item>xs=8</Item>
-          </Grid>
         </Grid>
       </Box>
     </>
